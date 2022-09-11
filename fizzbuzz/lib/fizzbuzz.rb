@@ -12,13 +12,9 @@ class Fizzbuzz
       int.to_s
     end
   end
-
-  def output
-    1.upto(20) do |n|
-      puts judge(n)
-    end
-  end
 end
 
 fizzbuzz = Fizzbuzz.new
-fizzbuzz.output
+1.upto(20) do |n|
+  puts fizzbuzz.judge(n)
+end
